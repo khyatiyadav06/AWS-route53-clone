@@ -1,5 +1,8 @@
 # AWS Route 53 Clone — Scaler SDE Fullstack Assignment
 
+🔗 **[Live Demo →](https://route53-clone-frontend-production.up.railway.app)**  
+📦 **[GitHub Repository →](https://github.com/khyatiyadav06/AWS-route53-clone)**
+
 A production-style full-stack recreation of the **AWS Route 53 management-console experience**. This project does not implement real DNS resolution or AWS infrastructure; it reproduces the requested console workflows, navigation, forms, tables, search, pagination, notifications and CRUD operations with SQLite persistence.
 
 ## Features
