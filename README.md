@@ -3,7 +3,16 @@
 🔗 **[Live Demo →](https://route53-clone-frontend-production.up.railway.app)**  
 📦 **[GitHub Repository →](https://github.com/khyatiyadav06/AWS-route53-clone)**
 
+🌐 **Deployed Application:** https://route53-clone-frontend-production.up.railway.app
+
+🔐 **Demo Credentials**
+- Email: `demo@route53.local`
+- Password: `Route53Demo123`
+
 A production-style full-stack recreation of the **AWS Route 53 management-console experience**. This project does not implement real DNS resolution or AWS infrastructure; it reproduces the requested console workflows, navigation, forms, tables, search, pagination, notifications and CRUD operations with SQLite persistence.
+
+
+
 
 ## Features
 
