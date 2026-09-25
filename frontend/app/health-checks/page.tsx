@@ -1,0 +1,2 @@
+import AppShell from "../../components/layout/AppShell";
+export default function Page(){return <AppShell><div className="max-w-5xl"><div className="text-sm text-gray-500 mb-3">Route 53 / health checks</div><div className="card p-12 text-center"><div className="text-5xl mb-5">◌</div><h1 className="text-3xl font-semibold capitalize">health checks</h1><p className="text-gray-600 mt-3">This Route 53 workflow is coming soon in this clone.</p><div className="mt-6 inline-block px-4 py-2 bg-[#f2f3f3] border text-sm">Coming Soon</div></div></div></AppShell>}

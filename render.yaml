@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: route53-clone-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:////data/route53.db
+      - key: CORS_ORIGINS
+        sync: false
+    disk:
+      name: route53-data
+      mountPath: /data
+      sizeGB: 1
+  - type: web
+    name: route53-clone-frontend
+    runtime: docker
+    dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        sync: false

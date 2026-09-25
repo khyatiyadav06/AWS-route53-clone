@@ -1,0 +1,11 @@
+backend/__pycache__/
+backend/**/*.pyc
+backend/.venv/
+backend/route53.db
+frontend/node_modules/
+frontend/.next/
+.env
+
+# SQLite databases
+*.db
+backend/*.db

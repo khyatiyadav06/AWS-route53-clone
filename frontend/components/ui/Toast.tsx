@@ -1,0 +1,1 @@
+export default function Toast({message,error=false,onClose}:{message:string;error?:boolean;onClose:()=>void}){return <div className={`fixed right-6 bottom-6 z-50 px-4 py-3 rounded shadow-lg text-white text-sm ${error?'bg-red-700':'bg-green-700'}`}><div className="flex gap-4 items-center"><span>{message}</span><button onClick={onClose}>×</button></div></div>}
